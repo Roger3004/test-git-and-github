@@ -30,3 +30,13 @@ a{
     border-radius: 8px;
     background-color: burlywood;
 }
+.cabecera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 8px;
+}
