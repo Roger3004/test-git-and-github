@@ -1,0 +1,32 @@
+body{
+    background-color: saddlebrown;
+    font-family: "Kode Mono", monospace;
+    text-align: center;
+}
+h1{
+    font-weight: bold;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.contenedor{
+    display: flex;
+    gap: 24px;
+}
+.primer{
+    display: flex;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: burlywood;
+}
+.segundo{
+    display: flex;
+    border-radius: 8px;
+    background-color: burlywood;
+}
