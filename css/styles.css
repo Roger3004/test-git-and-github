@@ -45,3 +45,10 @@ a{
     border: 1px solid white;
     border-radius: 8px;
 }
+.footer{
+    position: absolute;
+    bottom: 0;
+    background-color: aqua;
+    width: 98%;
+    height: 10vh;
+}
