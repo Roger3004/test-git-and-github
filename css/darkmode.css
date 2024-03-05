@@ -1,0 +1,67 @@
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(14, 38, 30);
+    font-family: "Kode Mono", monospace;
+    text-align: center;
+    color: white;
+}
+.header{
+    width: 100%-32px;
+    height: 100%;
+    display: flex;
+    background-color: rgb(2, 7, 53);
+    justify-content: space-between;
+    padding: 0 32px;
+}.menu{
+    display: flex;
+    gap: 8px;
+}
+.menu ul li{
+    display: inline
+}
+h1{
+    font-weight: bold;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(153, 156, 235);
+}
+a:hover{
+    color: aliceblue;
+}
+.contenedor{
+    display: flex;
+    gap: 24px;
+}
+.primer{
+    color: white;
+    display: flex;
+    padding: 8px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    background-color: rgb(44, 35, 22);
+}
+.segundo{
+    display: flex;
+    border-radius: 8px;
+    background-color: rgb(44, 35, 22);
+    color: white;
+}
+.cabecera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 1, 73);
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 8px;
+}
