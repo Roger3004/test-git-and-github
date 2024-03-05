@@ -8,6 +8,20 @@ body{
     font-family: "Kode Mono", monospace;
     text-align: center;
 }
+.header{
+    width: 100%-32px;
+    height: 100%;
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    padding: 0 32px;
+}.menu{
+    display: flex;
+    gap: 8px;
+}
+.menu ul li{
+    display: inline
+}
 h1{
     font-weight: bold;
 }
@@ -17,7 +31,10 @@ ul li{
 a{
     text-align: center;
     text-decoration: none;
-    color: white;
+    color: black;
+}
+a:hover{
+    color: rgb(107, 107, 12);
 }
 .contenedor{
     display: flex;
